@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    height: 60vh;
+    background: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    background: hsl(244, 38%, 16%);
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
