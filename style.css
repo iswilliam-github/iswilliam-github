@@ -5,17 +5,123 @@
 }
 
 .container{
-    width: 70%;
+    width: 65%;
     height: 60vh;
-    background: hsl(233, 47%, 7%);
+    background-color: hsl(233, 47%, 7%);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* align-self: center;   
+    justify-self: center;  */
 }
 
-.text {
-    background: hsl(244, 38%, 16%);
+.text{
+    background-color: hsl(244, 38%, 16%);
+    width: 35%;
+    height: 65%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5rem 2rem;
+ 
+}
+
+.small{
+
+  font-family: "Lexend Deca", sans-serif;
+  /* font-optical-sizing: 15px; */
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 1.5rem 0rem;
+  
+}
+.small-stat{
+
+    font-family: "Lexend Deca", sans-serif;
+    /* font-optical-sizing: 15px; */
+    font-size: 7px;
+    font-weight: 400;
+    font-style: normal;
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    flex-direction: column;
+    
+  }
+.data{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 1rem;
+ 
+}
+.stat{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      color: white;
+}
+.text h2{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    color: white;
+    
+
+}
+.data-container{
+    display: flex;
+    
+  
+}
+.pinky{
+    color: hsl(277, 64%, 61%);
+}
+.photo{
+     background: rgb(137, 43, 226);
+    width: 35%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size:  cover;
+    border-radius: 0px 10px 10px 0px;
+    filter: hue-rotate(90deg)
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    background-color: hsl(277, 64%, 61%);
     width: 50%;
-    height: 70%;
-    text-align: center;
+    height: 70vh;
+    opacity: 0.2;
+
 }
