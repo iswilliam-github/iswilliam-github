@@ -96,7 +96,7 @@
     color: hsl(277, 64%, 61%);
 }
 .photo{
-     background: rgb(137, 43, 226);
+   
     width: 35%;
     height: 65%;
     display: flex;
@@ -106,7 +106,21 @@
     background-image: url(images/image-header-desktop.jpg);
     background-size:  cover;
     border-radius: 0px 10px 10px 0px;
-    filter: hue-rotate(90deg)
+    filter: brightness(0.6);
+   
+}
+.photo-block{
+    background: hsla(277, 64%, 61%, 55%);
+   width: 18.55rem;
+   height: 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0px 10px 10px 0px;
+   
+   /* border-radius: 0px 10px 10px 0px;
+   filter: hue-rotate(90deg) */
 }
 
 body{
@@ -118,10 +132,4 @@ body{
     align-items: center;
 }
 
-.right{
-    background-color: hsl(277, 64%, 61%);
-    width: 50%;
-    height: 70vh;
-    opacity: 0.2;
 
-}
